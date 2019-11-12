@@ -4,7 +4,6 @@ class InventoryTracker:
     def __init__(self):
         self.building_inventory = {}
         self.log = []
-        self.day = 1
     
     def add_inventory(self, building_key, count):
         self.building_inventory[building_key] = self._get_current_inventory_level(building_key) + count
