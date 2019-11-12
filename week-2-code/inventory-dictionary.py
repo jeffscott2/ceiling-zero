@@ -31,14 +31,14 @@ class InventoryTracker:
 
 
 
-i = InventoryTracker()
+it = InventoryTracker()
 
-i.add_inventory(1,3)
-i.add_inventory(1,3)
-i.add_inventory(2,1)
-i.remove_inventory(1,1)
-i.add_inventory('the garage',1)
-i.add_inventory('the shed',7)
-i.print_inventory_by_building()
-i.print_inventory_total()
-# i.print_log()
+it.add_inventory(1,3)
+it.add_inventory(1,3)
+it.add_inventory(2,1)
+it.remove_inventory(1,1)
+it.add_inventory('the garage',1)
+it.add_inventory('the shed',7)
+it.print_inventory_by_building()
+it.print_inventory_total()
+# it.print_log()
