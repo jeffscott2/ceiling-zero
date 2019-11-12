@@ -1,7 +1,7 @@
 
 import csv
 
-input_file='stocks.csv'
+input_file = 'week-1-code/stocks.csv'
 
 csv_file = open(input_file)
 csv_row_reader = csv.reader(csv_file, delimiter=',' )
