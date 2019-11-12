@@ -1,8 +1,7 @@
 
-class Inventory:
-    # 0 <= building_idx < building_count
+class InventoryTracker:
+    
     def __init__(self):
-        
         self.buildings = {}
         self.log = []
         self.day = 1
@@ -32,7 +31,7 @@ class Inventory:
 
 
 
-i = Inventory()
+i = InventoryTracker()
 
 i.add_inventory(1,3)
 i.add_inventory(1,3)
