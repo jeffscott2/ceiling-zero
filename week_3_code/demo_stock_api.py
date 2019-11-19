@@ -1,11 +1,12 @@
-from json_io import write_dict_to_json_file, read_json_file_as_dict
-
 import urllib.request
 import json
 import matplotlib.pyplot as plt
+from json_io import write_dict_to_json_file, read_json_file_as_dict
 
 
-# https://www.worldtradingdata.com/home
+# Data is from: https://www.worldtradingdata.com/home
+# Graphing Examples: https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html
+
 token = "<get from slack>"
 
 def download_json_from_url(stock):
@@ -21,7 +22,7 @@ def calculate_x_and_y_values(all_time):
     x_vals = []
     y_vals = []
     for day, days_dict in sorted(all_time.items(), key=lambda item: item[0]):
-        price = days_dict['close']
+        price = days_dict['volume']
         price = float(price)
         x_vals.append(day)
         y_vals.append(price)
@@ -38,4 +39,7 @@ stock = 'AAPL'
 dict = download_json_from_url(stock)
 x_vals, y_vals = calculate_x_and_y_values(dict)
 plot_stock(stock, x_vals, y_vals)
+
+
+
 
