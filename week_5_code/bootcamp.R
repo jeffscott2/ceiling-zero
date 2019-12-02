@@ -2,8 +2,7 @@
 ## this is open data from online- like calling an API:
 #data2 = read.csv(url("http://stat.columbia.edu/~rachel/datasets/nyt1.csv"))
 ## this is data we have been using: 
-data1 = read.csv("/Users/user1/Downloads/kc_house_data.csv") #why doesn't think work? 
-data1 = read.csv("/Users/user1/Documents/kc_house_data.csv")
+data1 = read.csv("~/ws/ceiling-zero/week_5_code/kc_house_data.csv")
 
 #explore the data
 head(data1)
