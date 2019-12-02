@@ -1,0 +1,6 @@
+# in the terminal - install r and rstdio
+brew cask install r 
+brew cask install rstudio
+
+
+# open rstudio        (open /Applications/RStudio.app)
