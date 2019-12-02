@@ -110,7 +110,7 @@ from rental
 	Write a query to find all the `films` in each `category` using the `film_category` table to make the connection.
 		This will require 2 joins.  Which is a 1-many join? Which a 1-1 join?
 
-	Find all the cities in the country 'Austria' in our city.  Is this a 1-1 join or a 1-many?
+	Find all the cities in the country 'Austria'.  Is this a 1-1 join or a 1-many?
 */
 /*
 select *
@@ -161,6 +161,9 @@ where c.country = 'Austria'
         - If you have a list of customers and addresses, some of the addresses won't be filled in
         
 */
+
+
+
 
 # SUB QUERY for Aggregation
 /*
