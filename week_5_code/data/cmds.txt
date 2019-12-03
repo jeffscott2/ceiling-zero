@@ -1,0 +1,12 @@
+cp 2019_01.csv 2020_01.csv
+cp 2019_02.csv 2020_02.csv
+cp 2019_03.csv 2020_03.csv
+cp 2019_04.csv 2020_04.csv
+cp 2019_05.csv 2020_05.csv
+cp 2019_06.csv 2020_06.csv
+cp 2019_07.csv 2020_07.csv
+cp 2019_08.csv 2020_08.csv
+cp 2019_09.csv 2020_09.csv
+cp 2019_10.csv 2020_10.csv
+cp 2019_11.csv 2020_11.csv
+cp 2019_12.csv 2020_12.csv
